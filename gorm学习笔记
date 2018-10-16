@@ -1,0 +1,6 @@
+映射表名
+func (typename) TableName() string {
+  return tablename
+}
+映射字段名
+`gorm:"primary_key;column:columnname"`
