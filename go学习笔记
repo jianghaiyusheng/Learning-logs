@@ -1,0 +1,3 @@
+make函数与new函数：
+make只针对slice、map、channel，且返回的是类型本身
+new针对一般类型，且返回指向类型的指针
