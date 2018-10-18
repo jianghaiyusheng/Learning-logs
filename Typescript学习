@@ -1,0 +1,22 @@
+Typescript学习笔记
+
+安装：npm install -g typescript
+编译：tsc xxx.ts
+
+数据类型：
+number,string,boolean,null,undefined,void,enum,any,
+
+null:只有一个值null
+undefined:只有一个值undefined
+any:隐式类型推测（var a; var a:any;)
+
+冲突检测：编译器自动排除无用的选项
+
+联合类型：var a:number|string
+
+declare 外部变量声明: declare var xxx
+
+复合类型(object type)：
+var point:{x:number,y:number,z?:number}
+point={x:12,y:5}
+point={x:12,y:5,z:13}
