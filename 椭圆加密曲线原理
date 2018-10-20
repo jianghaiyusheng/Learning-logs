@@ -13,3 +13,17 @@
 3、椭圆上的点P的逆元与P关于X轴轴对称
 4、定义+运算：给定三个非零的点 P，Q和R，则P+Q+R=0（无限远点）成立
 注意：最后一条公理里，给出了三个点，但是没有限定顺序，也就意味着P+(Q+R)=Q+(P+R)=R+(P+Q)=⋯=0。
+
+The field of integers modulo p：
+Addition: (18+9)mod23=4
+Subtraction: (7−14)mod23=16
+Multiplication: 4⋅7mod23=5
+Additive inverse: −5mod23=18
+Indeed: (5+(−5))mod23=(5+18)mod23=0
+Multiplicative inverse: 9（−1）mod23=18
+Indeed: 9⋅9（−1）mod23=9⋅18mod23=1
+
+基于mod p 的在有限域上的椭圆曲线：
+使用Schoof`s algorithm 可以计算曲线上的点数
+基于曲线上的任一点可以产生一个基于mod N子群
+基于总群的点数可以先选择一个合适的素数再寻找点：NP=n(hP)
